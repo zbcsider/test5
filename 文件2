@@ -1,1 +1,11 @@
-版本2，fgdfgdszfg
+版本2，- Discord: <https://discord.gg/PbJhnZJKDd>
+
+> Users still on version 2.x.x, please check [2to3](docs/2to3.md) before deciding to upgrade to 3.x.x (Upgrade is highly recommended).
+
+## How it Works
+This framework mainly consists of two parts:
+
+1.  **Device Side**: Runs an HTTP service based on UiAutomator, providing various interfaces for Android automation.
+2.  **Python Client**: Communicates with the device side via HTTP protocol, invoking UiAutomator's various functions.
+
+Simply put, it exposes Android automation capabilities to Python through HTTP interfaces. This design makes Python-side cod
